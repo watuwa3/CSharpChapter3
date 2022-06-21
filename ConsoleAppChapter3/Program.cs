@@ -1,24 +1,15 @@
 ﻿// C#プログラミングのイディオム／定石＆パターン
-// Chapter 3.1.2 デリゲートによる実現
-// Chapter 3.1.3 匿名メソッドの利用 (C# 2.0以降)
-using System;
-using System.Numerics;
-using System.Collections.Generic;
-
-int Count(int[] _numbers, Predicate<int> judge)
+// Chapter 3.1 汎用性のない Count メソッド
+int Count(int num)
 {
+    var numbers = new[] { 5, 3, 9, 6, 7, 5, 8, 1, 0, 5, 10, 4 };
     int count = 0;
-    foreach (var n in _numbers)
+    foreach (var number in numbers)
     {
-        Console.WriteLine("param={0}", n % 2);
-        if (judge(n) == true)
+        if (number == num)
             count++;
     }
     return count;
 }
 
-var numbers = new[] { 5, 3, 9, 6, 7, 5, 8, 1, 0, 5, 10, 4 };
-
-var count = Count(numbers, delegate (int n) { return n % 2 != 0; });
-
-Console.WriteLine("Count(n % 2) = {0}", count);
+Console.WriteLine("Count(5) = {0}", Count(5));
