@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Source\\repos\\ConsoleAppChapter3\\ConsoleAppChapter3\\ConsoleAppChapter3.csproj": {}
+    "D:\\Source\\repos\\CSharpChapter3\\ConsoleAppChapter3\\ConsoleAppChapter3.csproj": {}
   },
   "projects": {
-    "D:\\Source\\repos\\ConsoleAppChapter3\\ConsoleAppChapter3\\ConsoleAppChapter3.csproj": {
+    "D:\\Source\\repos\\CSharpChapter3\\ConsoleAppChapter3\\ConsoleAppChapter3.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Source\\repos\\ConsoleAppChapter3\\ConsoleAppChapter3\\ConsoleAppChapter3.csproj",
+        "projectUniqueName": "D:\\Source\\repos\\CSharpChapter3\\ConsoleAppChapter3\\ConsoleAppChapter3.csproj",
         "projectName": "ConsoleAppChapter3",
-        "projectPath": "D:\\Source\\repos\\ConsoleAppChapter3\\ConsoleAppChapter3\\ConsoleAppChapter3.csproj",
+        "projectPath": "D:\\Source\\repos\\CSharpChapter3\\ConsoleAppChapter3\\ConsoleAppChapter3.csproj",
         "packagesPath": "C:\\Users\\Owner\\.nuget\\packages\\",
-        "outputPath": "D:\\Source\\repos\\ConsoleAppChapter3\\ConsoleAppChapter3\\obj\\",
+        "outputPath": "D:\\Source\\repos\\CSharpChapter3\\ConsoleAppChapter3\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Owner\\AppData\\Roaming\\NuGet\\NuGet.Config",
